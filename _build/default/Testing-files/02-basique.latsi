@@ -1,0 +1,10 @@
+1 REM "Ce programme donne le nombre le plus grand entre deux variables"
+0 X = 60
+3 Y = 10
+5 SI X > Y ALORS VAVERS 9
+6 IMPRIME "Y est le plus grand avec une valeur de : " , Y
+7 NL
+8 FIN
+9 IMPRIME "X est le plus grand avec une valeur de : " , X
+10 NL
+11 FIN

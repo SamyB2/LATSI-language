@@ -1,0 +1,49 @@
+type token =
+    VAR of string
+  | THEN
+  | SUB
+  | STR of string
+  | RPAREN
+  | REM
+  | PRINT
+  | NUM of int
+  | NL
+  | NEQ
+  | NEG
+  | MUL
+  | MIN
+  | MAX
+  | LT
+  | LPAREN
+  | LE
+  | INPUT
+  | IF
+  | GT
+  | GOTO
+  | GE
+  | EQ
+  | EOF
+  | END
+  | ELSE
+  | DIV
+  | CR
+  | COMMA
+  | ASSIGN
+  | ADD
+val menhir_begin_marker : int
+val xv_term : Ast.term
+val xv_separated_nonempty_list_COMMA_print_ : Ast.print list
+val xv_separated_nonempty_list_COMMA_expr_ : Ast.expr list
+val xv_separated_nonempty_list_COMMA_assign_ : (string * Ast.expr) list
+val xv_relop : Ast.relop
+val xv_prog : Ast.prog
+val xv_print : Ast.print
+val xv_nonempty_list_line_ : (int * Ast.instr) list
+val xv_line : int * Ast.instr
+val xv_instr : Ast.instr
+val xv_facteur : Ast.facteur
+val xv_expr : Ast.expr
+val xv_cond : Ast.expr * Ast.relop * Ast.expr
+val xv_char_list : char list
+val xv_assign : string * Ast.expr
+val menhir_end_marker : int

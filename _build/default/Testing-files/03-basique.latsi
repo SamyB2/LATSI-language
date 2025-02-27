@@ -1,0 +1,10 @@
+1 REM "Ce programme calcule la somme des cent premiers nombres"
+2 I = 0
+3 S = 0 
+4 SI I > 100 ALORS VAVERS 8
+5 S = S + I
+6 I = I + 1
+7 VAVERS 4
+8 IMPRIME "La somme des cent premiers nombres est : " , S
+9 NL
+10 FIN

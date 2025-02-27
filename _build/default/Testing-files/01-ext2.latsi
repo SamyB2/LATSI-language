@@ -1,0 +1,8 @@
+0 REM "Ce programme sert a tester deux fonction MIN et MAX"
+1 A = 1 , B = 2 * A + 1 , C = A - B + 2 , D = 7
+2 IMPRIME "Le minimum entre A : " , A , " et  B : " , B , " et C : " , C , " et D : " , D
+3 NL 
+4 IMPRIME "EST : " , MIN (A , B , C , D)
+5 NL
+6 IMPRIME "Le maximum EST : " , MAX (A , B , C , D)
+7 NL

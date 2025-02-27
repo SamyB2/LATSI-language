@@ -1,0 +1,12 @@
+1 REM "Ce programme teste les condition avec SINON"
+2 I = 1 , K = 4
+3 SI I > K ALORS SI 0 = 0 ALORS IMPRIME "ZERO" SINON IMPRIME "BOO" SINON SI 0 = 0 ALORS VAVERS 41
+4 FIN
+41 IMPRIME "Ce message s'affiche"
+42 NL
+43 IMPRIME "Ce lui ci aussi"
+44 NL
+45 SI K > I ALORS SI 0 = 1 ALORS VAVERS 41 SINON VAVERS 78
+46 IMPRIME "Pas celui la...Triste..."
+48 NL
+78 FIN

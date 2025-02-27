@@ -1,0 +1,11 @@
+1 REM "Ce programme teste les condition avec et, ou et non"
+2 I = 6 , K = 7
+3 SI I < K && I * K = 42 ALORS VAVERS 41 SINON IMPRIME "BOO"
+4 FIN
+41 IMPRIME "Ce message s'affiche"
+42 NL
+43 SI ! I > K || I = 5 ALORS IMPRIME "La condition a bien ete respecter" SINON IMPRIME "BOO" 
+44 NL
+45 SI I = K && K <> I ALORS IMPRIME "Ce message s'affiche pas" SINON IMPRIME "mais celui ci oui"
+46 NL
+47 FIN

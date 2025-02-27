@@ -1,0 +1,13 @@
+0 REM "On teste quel ligne va s'afficher"
+14 IMPRIME "Pas elle"
+14 IMPRIME "Non pluss"
+77 IMPRIME "Je suis le deuxieme ici"
+78 NL
+88 IMPRIME "Et moi donc"
+88 IMPRIME "NON, C'est moi le dernier"
+89 NL
+90 IMPRIME "ET MOI AUSSIII"
+100 NL
+14 IMPRIME "je suis le premier"
+15 NL
+500 REM "FINNN"
